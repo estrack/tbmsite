@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navigation var and menu for TBM Music site</title>
+<script>
+$("document").ready(function(){
+    $(".show-menu").click(function(){
+        $("#menu").slideToggle();
+    });
+});
+$("document").ready(function(){
+    $(".labels").click(function(){
+        $("#oculabels").slideToggle();
+	});
+}); 
+	$("document").ready(function(){
+    $(".follow").click(function(){
+        $("#ocufollow").slideToggle();
+    });
+});
+$("document").ready(function(){
+    $(".letterm").click(function(){
+        $("#oculetterm").slideToggle();
+    });
+});
+
+    $("document").ready(function(){
+    $(".labels").click(function(){
+        $("#colorcambio").toggleClass("labelson");
+    });
+});	
+ $("document").ready(function(){
+    $(".follow").click(function(){
+        $("#colorcambio2").toggleClass("labelson");
+    });
+});	
+$("document").ready(function(){
+    $("a").click(function(){
+        $("#menu").hide("fast");
+    });
+});
+
+// esta para .active class
+
+$(function() {
+    var nav = document.getElementById("menudesk"),
+        anchor = nav.getElementsByTagName("a"),
+        current = window.location;
+
+    console.log("anchor = ",anchor,"current = ",current);
+
+    for (var i = 0; i < anchor.length; i++) {
+    if(anchor[i].href == current) {
+        anchor[i].className = "activep";
+
+    }
+
+}
+});// para desplegar Newsletter en nav desktop
+$("document").ready(function(){
+    $("#botondropletter").click(function(){
+        $("#dropletter").slideToggle();
+		
+    });
+});
+// flecha Newsletter
+$(document).ready(function(){
+    $("#botondropletter").click(function(){
+        $("#flechaletter").toggleClass(".glyphicon glyphicon-menu-up");
+		
+    });
+});
+// para desplegar Demo en nav desktop
+$("document").ready(function(){
+    $("#botondropdemo").click(function(){
+        $("#dropdemo").slideToggle();
+		
+    });
+});
+// flecha Demo
+$(document).ready(function(){
+    $("#botondropdemo").click(function(){
+        $("#flechademo").toggleClass(".glyphicon glyphicon-menu-up");
+		
+    });
+});
+// para desplegar Follow en nav desktop
+$("document").ready(function(){
+    $("#followbo").click(function(){
+        $("#dropf").slideToggle();
+		
+    });
+});
+// flecha Follow
+$(document).ready(function(){
+    $("#followbo").click(function(){
+        $("#flecha").toggleClass(".glyphicon glyphicon-menu-up");
+		
+    });
+});
+// para desplegar Labels en nav desktop
+$("document").ready(function(){
+    $("#botondroplabels").click(function(){
+        $("#droplabels").slideToggle();
+		
+    });
+});
+$(document).ready(function(){
+    $("#botondroplabels").click(function(){
+        $("#flechalabelsdesk").toggleClass(".glyphicon glyphicon-menu-up");
+		
+    });
+});
+//Flecha de menu desplegabe para "Labels" mobile
+$(document).ready(function(){
+    $("#colorcambio").click(function(){
+        $("#flechalabelsm").toggleClass(".glyphicon glyphicon-menu-up");
+    });
+});
+//Flecha de menu desplegabe para "Follow" mobile
+$(document).ready(function(){
+    $("#colorcambio2").click(function(){
+        $("#flechafollowm").toggleClass(".glyphicon glyphicon-menu-up");
+    });
+});
+//Flecha de menu desplegabe para "Follow" mobile
+$(document).ready(function(){
+    $("#colorcambio3").click(function(){
+        $("#flechaletterm").toggleClass(".glyphicon glyphicon-menu-up");
+    });
+});
+</script>
+<div id="navbarcompleta">
+<div id="navmobilestick">
+<nav id="navmobile">
+  <div>
+    <button class="show-menu"><img class="menuimg" src="http://4.bp.blogspot.com/-dhSj1gxxc1g/Vqzx9TsggFI/AAAAAAAAAmQ/5Wy25ABmAYs/s1600/menumovilnegro.png" width="38" height="35" alt=""/></button>
+  </div>
+  <div class="logomobil"> <a href="http://devtbm.blogspot.com.co/"><img src="https://4.bp.blogspot.com/-flsfQ6GgwqA/VrYX32baCaI/AAAAAAAAAoU/u_m3iZ2TMxA/s1600/text3797-6-7-9.png" alt="TBM Music Logo" width="73" height="28" class="menuimg2" title="TBM Music logo"/></a> </div>
+  <div id="menu">
+    <div class="botonsim"><a href="http://www.tbmmusic.com/">Home</a></div>
+    <div id="colorcambio" class="labels">Labels <span id="flechalabelsm" class="glyphicon glyphicon-menu-down"></span></div>
+    	<ul id="oculabels">
+          <li class="subocu"><a href="http://devtbm.blogspot.com.co/p/beautyofmelody.html">The Beauty Of Melody</a></li>
+          <li class="subocu"><a href="http://devtbm.blogspot.com/p/closerecords.html">Close Records</a></li>
+          <li class="subocu"><a href="http://devtbm.blogspot.com/p/mindfield.html">Mind Field Records</a></li>
+    	</ul>
+    <!--<ul class="botonsim">Artists</ul>-->
+    <div id="colorcambio2" class="follow">Follow <span id="flechafollowm" class="glyphicon glyphicon-menu-down"></span></div>
+    	<ul id="ocufollow">
+          <li class="subocu"><a href="http://smarturl.it/spotifytbm">Spotify</a></li>
+          <li class="subocu"><a href="http://smarturl.it/tbmtwitter">Twitter</a></li>
+          <li class="subocu"><a href="https://www.instagram.com/tbm_music">Instagram</a></li>
+          <li class="subocu"><a href="http://smarturl.it/tbmmsc">Soundcloud</a></li>
+          <li class="subocu"><a href="http://smarturl.it/tbmmfacebook">Facebook</a></li>
+      </ul>
+    <!--<ul class="botonsim">Contact</ul>-->
+    <div class="botonsim"> <a href="http://devtbm.blogspot.com.co/p/demo.html">Demo</a></div>
+	<div id="colorcambio3" class="letterm">Newsletter <span id="flechaletterm" class="glyphicon glyphicon-menu-down"></span></div>
+    	<div id="oculetterm">
+          <!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//tbmmusic.us3.list-manage.com/subscribe/post?u=71507fafc01673e6ec35a16c7&amp;id=7373b672e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_71507fafc01673e6ec35a16c7_7373b672e5" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+      </div>
+  </div>
+</nav>
+</div>
+<!-- nav bar desktop -->
+<div id="navdeskfixed">
+<nav class="navdesk">
+<div id="menudesk">
+  <div class="linkmenudesk"><a class="menudesklinks" href="http://www.tbmmusic.com/">Home</a></div>
+  
+  <div class="dropff" id="botondroplabels">
+  		<div class="dropff">
+	<div class="dropf linkmenudesk"><a class="menudesklinks" href="#/">Labels <span id="flechalabelsdesk" class="glyphicon glyphicon-menu-down"></span></a></div></div>
+  		<div class="widelink">
+        <ul id="droplabels">
+        <li class="dropline"><a href="http://devtbm.blogspot.com.co/p/beautyofmelody.html" class="dropa">•The Beauty of Melody</a></li>
+        <li class="dropline"><a href="http://devtbm.blogspot.com/p/closerecords.html" class="dropa">•Close Records</a></li>
+        <li class="dropline"><a href="http://devtbm.blogspot.com.co/p/mindfield.html" class="dropa">•Mind Field Records</a></li>
+        </ul>
+        </div>
+      </div>
+  <!-- <li class="linkmenudesk"><a class="menudesklinks" href="http://devtbm.blogspot.com.co/p/artists.html/">Artists</a></li>-->
+  
+  	
+    <div class="dropff" id="followbo">
+  		<div class="dropff"><div class="dropf linkmenudesk"><a class="menudesklinks" href="#/">Follow <span id="flecha" class="glyphicon glyphicon-menu-down"></span></a></div></div>
+  		<div class="widelink">
+        <ul id="dropf">
+        <li class="dropline"><a href="http://smarturl.it/tbmtwitter" target="_blank" class="dropa">•Twitter</a></li>
+        <li class="dropline"><a href="http://smarturl.it/tbmmsc" target="_blank" class="dropa">•Soundcloud</a></li>
+        <li class="dropline"><a href="http://smarturl.it/spotifytbm" target="_blank" class="dropa">•Spotify</a></li>
+        <li class="dropline"><a href="https://www.instagram.com/tbm_music" target="_blank" class="dropa">•Instagram</a></li>
+        <li class="dropline"><a href="http://smarturl.it/tbmmfacebook" target="_blank" class="dropa">•Facebook</a></li>
+        </ul>
+        </div>
+      </div>
+	  
+	  <div class="dropff" id="botondropdemo">
+			<div class="dropff">
+			<div class="linkmenudesk"><a class="menudesklinks" href="#/">Demo <span id="flechademo" class="glyphicon glyphicon-menu-down"></span></a></div></div>
+				<div class="widelink">
+				<div id="dropdemo">
+				<div class="cuerpofulldemo">
+				<div class="cuerpo">
+				<div class="article" >
+				<p ><br>
+		Please send your demos for all our labels to: demo[at]tbmmusic[dot]com<br><br>
+
+		•Send unmastered tracks, do not limit or compress your mix<br>
+
+		•From 3 to 4 tracks<br>
+
+		•Only links to soundcloud or other streaming service. Please no downloads<br>
+
+		•Do not send unfinished works<br>
+
+		•Write in the email subject which of our labels your demo is for<br>
+
+		•Be patience, we do our best to listen every demo that we receive, and we like to
+
+		take our time<br><br>
+		TBM Music A&R Team</p>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		</div>
+		
+		
+		
+		<div class="dropff" >
+			<div class="dropff">
+			<div class="linkmenudesk"><a class="menudesklinks" id="botondropletter" href="#/">Newsletter <span id="flechaletter" class="glyphicon glyphicon-menu-down"></span></a></div></div>
+				<div class="widelink">
+				<div id="dropletter">
+				<div class="cuerpofulldemo">
+				<div class="cuerpo">
+				<article >
+				<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//tbmmusic.us3.list-manage.com/subscribe/post?u=71507fafc01673e6ec35a16c7&amp;id=7373b672e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_71507fafc01673e6ec35a16c7_7373b672e5" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+				</article>
+				</div>
+				</div>
+				</div>
+				</div>
+		</div>
+		
+		
+	  
+	  
+  <div class="menuimg3">
+	<img class="logomobil2" src="https://4.bp.blogspot.com/-flsfQ6GgwqA/VrYX32baCaI/AAAAAAAAAoU/u_m3iZ2TMxA/s1600/text3797-6-7-9.png" width="73" height="29" alt=""/>
+    
+  </div>
+</div>
+</nav>
+</div>
+</div>
+
+</!doctype>
