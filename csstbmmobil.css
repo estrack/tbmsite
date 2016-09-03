@@ -1,0 +1,254 @@
+.navdesk {
+	display: none;
+}
+.player {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		border: none;
+	}
+.article {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+.article p {
+	
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+.glyphicon.glyphicon-menu-down, .glyphicon.glyphicon-menu-up  {
+    font-size: 15px;
+}
+
+.cuerpo {
+	padding: 0;
+	width: 100%;	
+	}
+	
+.cuerpofull {
+	margin: -30px 0;
+
+}
+.linkssx {
+	font-size: small;
+	color: #323232 !important;
+	text-decoration: none !important;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: #E1E3E4;
+	padding: 5px 8px;
+	display: inline-block !important;
+	margin: 1px 1px;
+	border: thin solid #C0BDBD;
+	width: auto;
+
+  }
+
+
+  .h2 {
+	font-size: x-large;
+	margin-top: 10px;
+	}
+.h5 {
+	font-size: x-large !important;
+	font-weight: normal !important;
+	text-align: center !important;
+	padding-top: 40px !important;
+	border-bottom: none !important;
+	margin: 20px 10px 0 10px !important;
+	text-decoration: none !important;
+}
+.remote-contain {
+	border-bottom: none;
+ 	
+}
+
+
+.imagen1 {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 100%;
+	max-width: 380px;
+	border: none;
+	margin-bottom: 0px;
+}
+.callmain {
+	position: relative;
+	bottom: none;
+	right: 0;
+    left: 0;
+    margin: 3px auto; 
+	text-align: center; 
+  }
+  .call{
+	  text-align: center;
+  }
+.espacio {
+	margin: 0;
+	margin-top: 0px;
+}
+.linkss {
+	font-size: medium;
+	padding: 15px 15px;
+	display: inline-block;
+	width: auto;
+}
+.imagendes {
+	height: 105px;
+	background-color: transparent;
+	text-align: center;
+}
+.label-logo {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		border: none;
+	}
+h1 {
+	border-bottom: none !important;
+	letter-spacing: 0px !important;
+}
+/* css para menu mobil navigation*/
+#navmobilesticks {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	
+}
+.labelson {
+	background-color: #F5EC18 !important;
+}
+/* muestra el menu en mobil */
+#navmobile {
+	display: block;
+	border-bottom: thin solid #C0BDBD;
+
+}
+/* mantiene el menu desplegable oculto y cuando se despliega lo hace aprecer sobre el contenido de la pagina gracias a position: absolute. */
+#menu {
+	position: absolute;
+	display: none;
+	z-index: 100;
+	background-color: #C7C7C7;
+}
+a {
+	color: #000000 !important;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	width: 100%;
+}
+/* estilo para el boton menu */
+.show-menu {
+	display: block;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #C7C7C7;
+	color: white;
+	padding: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	width: 20%;
+	height: 50px;
+	text-align: center;
+	float: left;
+	border: none;
+	color: #FCFCFC;
+}
+/* estilo para botones de menu desplegable */
+.labels, .follow, .botonsim, .letterm{
+	display: block;
+	width: 100%;
+	background-color: #C7C7C7;
+	color: Black;
+	padding: 0px;
+	padding-bottom: 16px;
+	padding-top: 16px;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	margin: 0 0 0 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.labels:hover, .follow:hover, .botonsim:hover, .letterm:hover{
+	background-color: #F5EC18;
+}
+#menu, #ocufollow, #oculabels {
+	display: none;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+ #oculetterm{
+	display: none;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding:  0 7px 1px 7px !important;
+	position: static;
+	background: #F5EC18;
+ }
+ #mc-embedded-subscribe-form{
+	 padding: 7px !important;
+ }
+ 
+.subocu {
+	position: static;
+	display: block;
+	
+}
+.subocu a {
+	display: block;
+	min-width: 140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: Balck;
+	background: #F5EC18;
+	text-decoration: none;
+}
+.subocu:hover a {
+	background-color: #C7C7C7;
+}
+#oculabels a, #ocufollow a {
+	display: block;
+	max-width: 100%;
+	background-color: #F5EC18;
+}
+.menuimg {
+	float: rigth;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+button {
+	border-radius: 0px;
+}
+.logomobil {
+	background-color: #E1E3E4;
+	width: auto;
+	height: 50px;
+	display: block;
+	float: rigth;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.menuimg2 {
+	float: right;
+	
+	margin-right: 5%;
+	margin-top: 6.5px;
+}
+/*Carrusel*/
+.container {
+		display: none;
+        margin-left: -20px;
+        margin-right: -20px;
+}
