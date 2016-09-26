@@ -289,7 +289,7 @@ audio {
 .call {
 	padding-top: 4px;
 	padding-right: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	padding-left: 10px;
 	background-color: #C7C7C7;
 	border: thin solid #C0BDBD;
@@ -647,6 +647,7 @@ audio {
 	background-color: #009933;
 	padding: 5%;
 }
+/*padding para interior de call box link de descarga */
 .callpromobox {
 	padding: 5%;
 }
