@@ -645,5 +645,8 @@ audio {
 /*red background for sharing link on press page */
 .greenbackw {
 	background-color: #009933;
-	padding: 10%;
+	padding: 5%;
+}
+.callpromobox {
+	padding: 5%;
 }
