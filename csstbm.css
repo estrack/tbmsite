@@ -128,8 +128,7 @@ h3.post-title {
 	font-size: normal !important;
 	color: black !important;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-	display: inline-block;
-	line-height: 4px;
+	
   }
   .linktext:hover {
 	text-decoration: underline !important;
