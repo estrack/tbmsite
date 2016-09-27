@@ -134,6 +134,7 @@ h3.post-title {
 	font-weight: normal !important;
 	font-style: italic;
 	font-size: normal;
+	text-decoration: underline !important;
 	color: black !important;
 	text-decoration: none !important;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
@@ -143,7 +144,7 @@ h3.post-title {
 	line-height: 4px;	
 }
 .linkrec:hover {
-	text-decoration: underline !important;
+	color: #F5EC18 !important;
 }
 .linkfooter {
 	font-weight: normal !important;
