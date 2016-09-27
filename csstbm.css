@@ -331,6 +331,13 @@ audio {
 	display: inline-block;
 	vertical-align: top;
 }
+.artistpic {
+	width: 300px;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
 
 /*Carrusel*/
 .container {
