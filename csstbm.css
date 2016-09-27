@@ -105,7 +105,7 @@ h3.post-title {
 .linkss {
 	font-size: medium;
 	color: black !important;
-	text-decoration: underline !important;
+	text-decoration: none !important;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	display: inline-block;
 	margin: 2px;
