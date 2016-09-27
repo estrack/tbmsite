@@ -125,9 +125,9 @@ h3.post-title {
 	text-decoration: none !important;
 	font-weight: normal !important;
 	font-style: italic !important;
-	font-size: normal;
+	font-size: normal !important;
 	color: black !important;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	display: inline-block;
 	line-height: 4px;
   }
