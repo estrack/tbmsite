@@ -132,6 +132,7 @@ h3.post-title {
 
 .linkrec {
 	font-weight: normal !important;
+	font-style: italic;
 	font-size: normal;
 	color: black !important;
 	text-decoration: none !important;
