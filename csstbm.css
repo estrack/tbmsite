@@ -659,3 +659,9 @@ audio {
 .callpromobox {
 	padding: 5%;
 }
+
+.callartist {
+	padding: 5%;
+	background-color: #C7C7C7;
+	border: thin solid #C0BDBD;
+}
