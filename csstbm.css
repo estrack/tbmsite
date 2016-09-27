@@ -105,7 +105,7 @@ h3.post-title {
 .linkss {
 	font-size: medium;
 	color: black !important;
-	text-decoration: none !important;
+	text-decoration: underline !important;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	display: inline-block;
 	margin: 2px;
@@ -118,8 +118,22 @@ h3.post-title {
 	vertical-align: bottom;
   }
 .linkss:hover {
+	color: black !important;
 	background-color: #F5EC18 !important;
 }
+.linktext {
+	text-decoration: none !important;
+	font-weight: normal !important;
+	font-style: italic;
+	font-size: normal;
+	color: black !important;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: inline-block;
+	line-height: 4px;
+  }
+  .linktext:hover {
+	text-decoration: underline !important;
+	}
   .callmain {
 	position: absolute;
 	bottom: 2px;
