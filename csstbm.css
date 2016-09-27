@@ -132,10 +132,10 @@ h3.post-title {
 
 .linkrec {
 	text-decoration: none !important;
-	font-weight: bold !important;
+	font-weight: normal !important;
 	font-style: italic;
 	font-size: normal;
-	color: black !important;
+	color: blue !important;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	padding: 7px 0px 7px 0px;
 	display: inline-block;
