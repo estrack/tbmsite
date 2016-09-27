@@ -655,13 +655,23 @@ audio {
 	background-color: #009933;
 	padding: 5%;
 }
-/*padding para interior de call box link de descarga */
+/*padding para interior de call box link de descarga press page*/
 .callpromobox {
 	padding: 5%;
 }
-
+/*padding para interior de call box página de artístas */
 .callartist {
 	padding: 5%;
 	background-color: #C7C7C7;
 	border: thin solid #C0BDBD;
+}
+.callartist p {
+	text-align: center;
+	color: black;
+	margin: 0;
+	padding-top: 14px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	font-size: medium;
 }
