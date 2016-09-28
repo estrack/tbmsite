@@ -702,17 +702,17 @@ body.en :lang(es) {
 
 /*estilo para botones*/
 .button {
-    font-size: medium;
-	color: black;
-	text-decoration: none;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	display: inline-block;
-	margin: 2px;
-	line-height: 4px;
-	font-weight: normal;
-	background-color: #E1E3E4;
-	padding: 12px 8px;
-	border: thin solid #C0BDBD;
-	vertical-align: bottom;
+    font-size: medium !important;
+	color: black !important;
+	text-decoration: none !important;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif !important;
+	display: inline-block !important;
+	margin: 2px !important;
+	line-height: 4px !important;
+	font-weight: normal !important;
+	background-color: #E1E3E4 !important;
+	padding: 12px 8px !important;
+	border: thin solid #C0BDBD !important;
+	vertical-align: bottom !important;
 }
 
