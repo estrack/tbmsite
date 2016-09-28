@@ -728,7 +728,8 @@ body.en :lang(es) {
 	.buttonlang:visited {
 	border: thin solid #292929 !important;
 	}
-.active:active {
+.focus:focus {
   border: thin solid #292929 !important;
 }
+
 
