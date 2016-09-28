@@ -729,6 +729,9 @@ button:focus {
 	outline-color: #C7C7C7 !important;
 	outline-width: 5px !important;
 }
+button:active {
+	outline-width: 5px !important;
+}
 	
 
 
