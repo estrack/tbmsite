@@ -717,7 +717,7 @@ body.en :lang(es) {
 	border: thin solid #C0BDBD !important;
 	vertical-align: bottom !important;
 }
-.buttonlang :hover {
+.buttonlang:hover {
 	background-color: #F5EC18 !important;
 	}
 
