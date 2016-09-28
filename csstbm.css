@@ -697,3 +697,6 @@ body.en :lang(es) {
 	display: none;
 }
 
+/* espacio para boton idioma */
+.botonidioma {margin: 2%}
+
