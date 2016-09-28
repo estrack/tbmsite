@@ -103,8 +103,8 @@ h3.post-title {
 	
 }
 .linkss {
-	-webkit-transition-duration: 0.4s !important; 
-    transition-duration: 0.4s !important;
+	-webkit-transition-duration: 0.2s !important; 
+    transition-duration: 0.2s !important;
 	font-size: medium;
 	color: black !important;
 	text-decoration: none !important;
@@ -288,8 +288,8 @@ audio {
 
 }
 .linkssx {
-	-webkit-transition-duration: 0.4s !important; 
-    transition-duration: 0.4s !important;
+	-webkit-transition-duration: 0.2s !important; 
+    transition-duration: 0.2s !important;
 	font-size: medium;
 	color: #323232 !important;
 	text-decoration: none !important;
@@ -706,8 +706,8 @@ body.en :lang(es) {
 
 /*estilo para botones*/
 .buttonlang {
-	-webkit-transition-duration: 0.4s !important; 
-    transition-duration: 0.4s !important;
+	-webkit-transition-duration: 0.2s !important; 
+    transition-duration: 0.2s !important;
     font-size: medium !important;
 	color: black !important;
 	text-decoration: none !important;
@@ -723,5 +723,9 @@ body.en :lang(es) {
 }
 .buttonlang:hover {
 	background-color: #F5EC18 !important;
+	
+	}
+	.buttonlang:visited {
+	border: thin solid #292929 !important;
 	}
 
