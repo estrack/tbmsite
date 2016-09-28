@@ -689,9 +689,14 @@ audio {
 	font-size: medium;
 }
 /* cambio de idioma */
-body.en :lang(es) {
-  display: none;
-}
+
 body.es :lang(en) {
-  display: none;
+	display: none;
 }
+body.en :lang(es) {
+	display: none;
+}
+div:lang(es){ 
+	display : none }
+div:lang(en) { 
+	display : inherit }
