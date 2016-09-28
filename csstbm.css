@@ -726,7 +726,8 @@ body.en :lang(es) {
 	
 	}
 button:focus {
-outline-color: #C7C7C7 !important;
+	outline-color: #C7C7C7 !important;
+	outline: 2px !important;
 }
 	
 
