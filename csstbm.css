@@ -689,9 +689,9 @@ audio {
 	font-size: medium;
 }
 /* cambio de idioma */
-.en :lang(es) {
+body.en :lang(es) {
   display: none;
 }
-.es :lang(en) {
+body.es :lang(en) {
   display: none;
 }
