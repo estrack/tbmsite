@@ -701,7 +701,7 @@ body.en :lang(es) {
 .botonidioma {margin: 2%}
 
 /*estilo para botones*/
-.button {
+.buttonlang {
     font-size: medium !important;
 	color: black !important;
 	text-decoration: none !important;
