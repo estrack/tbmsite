@@ -730,6 +730,7 @@ button:focus {
 	outline-width: 5px !important;
 }
 button:active {
+	background-color: #F5EC18 !important;
 	outline-width: 5px !important;
 }
 	
