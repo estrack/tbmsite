@@ -702,6 +702,8 @@ body.en :lang(es) {
 
 /*estilo para botones*/
 .buttonlang {
+	-webkit-transition-duration: 0.4s !important; 
+    transition-duration: 0.4s !important;
     font-size: medium !important;
 	color: black !important;
 	text-decoration: none !important;
@@ -715,4 +717,7 @@ body.en :lang(es) {
 	border: thin solid #C0BDBD !important;
 	vertical-align: bottom !important;
 }
+.buttonlang :hover {
+	background-color: #F5EC18 !important;
+	}
 
