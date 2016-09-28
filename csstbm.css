@@ -691,7 +691,7 @@ audio {
 /* cambio de idioma */
 
 body.es :lang(en) {
-	display: inherit;
+	display: none;
 }
 body.en :lang(es) {
 	display: none;
