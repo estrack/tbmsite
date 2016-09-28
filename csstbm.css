@@ -688,3 +688,10 @@ audio {
 	padding-bottom: 1px;
 	font-size: medium;
 }
+/* cambio de idioma */
+.en :lang(es) {
+  display: none;
+}
+.es :lang(en) {
+  display: none;
+}
