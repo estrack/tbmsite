@@ -696,7 +696,7 @@ body.es :lang(en) {
 body.en :lang(es) {
 	display: none;
 }
-div:lang(es){ 
+.lang(es){ 
 	display : none }
-div:lang(en) { 
+.lang(en) { 
 	display : inherit }
