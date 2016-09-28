@@ -691,12 +691,9 @@ audio {
 /* cambio de idioma */
 
 body.es :lang(en) {
-	display: none;
+	display: inherit;
 }
 body.en :lang(es) {
 	display: none;
 }
-.lang(es){ 
-	display : none }
-.lang(en) { 
-	display : inherit }
+
