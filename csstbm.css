@@ -103,6 +103,8 @@ h3.post-title {
 	
 }
 .linkss {
+	-webkit-transition-duration: 0.4s !important; 
+    transition-duration: 0.4s !important;
 	font-size: medium;
 	color: black !important;
 	text-decoration: none !important;
@@ -286,6 +288,8 @@ audio {
 
 }
 .linkssx {
+	-webkit-transition-duration: 0.4s !important; 
+    transition-duration: 0.4s !important;
 	font-size: medium;
 	color: #323232 !important;
 	text-decoration: none !important;
