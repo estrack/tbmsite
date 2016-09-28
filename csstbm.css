@@ -729,7 +729,7 @@ button:focus {
 	outline-color: #C7C7C7 !important;
 	outline-width: 5px !important;
 }
-button:active {
+button:target {
 	background-color: #F5EC18 !important;
 	outline-width: 5px !important;
 }
