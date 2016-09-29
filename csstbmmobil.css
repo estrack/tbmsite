@@ -263,8 +263,8 @@ button {
 /*oculta por defecto los botones de idioma*/
 .botonibar {
 	float: right;
-	display: none;
-	position: absolute;
+	display: none !important;
+	/*position: absolute;
 	top: 50px;
-	/*right: 0;*/
+	right: 0;*/
 	}
