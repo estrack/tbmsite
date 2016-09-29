@@ -725,7 +725,11 @@ body.en :lang(es) {
 	background-color: #F5EC18 !important;
 	
 	}
-button:focus {
+.buttonlang:visited {
+	background-color: #C7C7C7 !important;
+	
+	}
+.buttonlang:focus {
 	outline-color: #C7C7C7 !important;
 	outline-width: medium !important;
 }
