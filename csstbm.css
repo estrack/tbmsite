@@ -744,7 +744,7 @@ body.en :lang(es) {
 	max-height: auto !important;
 }
 
-body.en .buttonlang {
+body.en .botonactivo {
 	outline-color: #C7C7C7 !important;
 	outline-width: medium !important;
 	border: 1px solid #C7C7C7 !important;
