@@ -759,6 +759,9 @@ body.en .botonactivo {
 	padding-right: 16px;
 	padding-left: 0px;*/
 }
+.hideibutton{
+	display: none;
+}
 
 	
 
