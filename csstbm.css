@@ -735,7 +735,7 @@ body.en :lang(es) {
 	border: 1px solid #C7C7C7 !important;
 	background-color: #C7C7C7 !important;
 }
-.buttonlang:active {
+.buttonlangactive {
 	outline-color: #C7C7C7 !important;
 	outline-width: medium !important;
 	border: 1px solid #C7C7C7 !important;
