@@ -732,12 +732,9 @@ body.en :lang(es) {
 .buttonlang:focus {
 	outline-color: #C7C7C7 !important;
 	outline-width: medium !important;
-	border: 1px solid #C7C7C7 !important;
 	background-color: #C7C7C7 !important;
 }
-.buttonlang:focus:hover {
-	background-color: #F5EC18 !important;
-}
+/*
 .buttonlang:active {
 	outline-color: #C0BDBD !important;
 	outline-width: medium !important;
@@ -746,7 +743,7 @@ body.en :lang(es) {
 	height: auto !important;
 	max-height: auto !important;
 }
-
+*/
 body.en .botonactivo {
 	outline-color: #C7C7C7 !important;
 	outline-width: medium !important;
