@@ -262,7 +262,5 @@ button {
 */
 /*posicion para el boton idioma*/
 .botonibar {
-	float: right;
-	display: inline-block;
-	margin-top: -13px;
+	margin-top: -5px;
 	}
