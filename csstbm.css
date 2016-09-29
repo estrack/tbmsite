@@ -713,7 +713,7 @@ body.en :lang(es) {
 	text-decoration: none !important;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif !important;
 	display: inline-block !important;
-	margin: 2px !important;
+	margin: 1px !important;
 	line-height: 4px !important;
 	font-weight: normal !important;
 	background-color: #E1E3E4 !important;
@@ -744,6 +744,7 @@ body.en .botonactivo {
 .botonibar {
 	float: right;
 	display: inline-block;
+	margin-top: -10px;
 	}
 
 
