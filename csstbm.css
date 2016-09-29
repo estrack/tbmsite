@@ -735,6 +735,9 @@ body.en :lang(es) {
 	border: 1px solid #C7C7C7 !important;
 	background-color: #C7C7C7 !important;
 }
+.buttonlang:focus:hover {
+	background-color: #F5EC18 !important;
+}
 .buttonlang:active {
 	outline-color: #C0BDBD !important;
 	outline-width: medium !important;
@@ -750,10 +753,7 @@ body.en .botonactivo {
 	border: 1px solid #C7C7C7 !important;
 	background-color: #C7C7C7 !important;
 }
-.botonactivo:hover {
-	background-color: #F5EC18 !important;
-	
-	}
+
 	
 
 
