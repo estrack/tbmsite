@@ -732,7 +732,7 @@ body.en :lang(es) {
 .buttonlang:focus {
 	outline-color: #C7C7C7 !important;
 	outline-width: medium !important;
-	box-shadow: 5px 5px 3px #C7C7C7 !important;
+	box-shadow: 3px 3px 2px #C7C7C7, -3px -3px 2px #C7C7C7 !important;
 }
 
 	
