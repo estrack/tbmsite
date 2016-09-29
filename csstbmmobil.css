@@ -264,7 +264,10 @@ button {
 .botonibar {
 	margin-top: -8px !important;
 	}
-body {
+
+body, #main { width: 100%; }
+
+#main {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
