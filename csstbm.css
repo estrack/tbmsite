@@ -750,6 +750,9 @@ body.en .botonactivo {
 	border: 1px solid #C7C7C7 !important;
 	background-color: #C7C7C7 !important;
 }
+.botonidiomabarra {
+	position: inline-block;
+}
 
 	
 
