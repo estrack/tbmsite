@@ -262,10 +262,10 @@ button {
 */
 /*posicion para el boton idioma*/
 .botonibar {
-	margin-top: -9px !important;
+	margin-top: -10px !important;
 	}
 
-body, #main { width: 100% !important; }
+/*body, #main { width: 100% !important; }
 
 #main {
     -webkit-box-sizing: border-box !important;
@@ -273,3 +273,4 @@ body, #main { width: 100% !important; }
     box-sizing: border-box !important;
     width: 100% !important;
 }
+*/
