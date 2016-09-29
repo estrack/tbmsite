@@ -733,7 +733,7 @@ body.en :lang(es) {
 	outline-color: #C7C7C7 !important;
 	outline-width: medium !important;
 	background-color: #C7C7C7 !important;
-}
+	}
 /*
 .buttonlang:active {
 	outline-color: #C0BDBD !important;
@@ -749,16 +749,16 @@ body.en .botonactivo {
 	outline-width: medium !important;
 	border: 1px solid #C7C7C7 !important;
 	background-color: #C7C7C7 !important;
-}
+	}
+	/*muestra automaticamente botones de idioma cuando haya contenido en español*/
+p.es .botonibar {
+	display: inline-block !important;
+	}
 
 .botonibar {
 	float: right;
 	display: none;
-	/*padding-top: 16px;
-	padding-bottom: 16px;
-	padding-right: 16px;
-	padding-left: 0px;*/
-}
+	}
 
 
 	
