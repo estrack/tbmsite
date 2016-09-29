@@ -263,8 +263,9 @@ button {
 /*oculta por defecto los botones de idioma*/
 .botonibar {
 	float: right;
-	display: none !important;
+	display: none;
 	/*position: absolute;
 	top: 50px;
 	right: 0;*/
 	}
+#botonmovhide {display: none !important;}
