@@ -260,3 +260,11 @@ button {
    margin-right: 5% !important;
 }
 */
+/*oculta por defecto los botones de idioma*/
+.botonibar {
+	float: right;
+	display: none;
+	position: fixed;
+	top: 50px;
+	right: 0;
+	}
