@@ -287,6 +287,11 @@ button {
 	border-top: none !important;
 	background-color: #C7C7C7 !important;
 	}
+body.en .botonactivo {
+	outline: none !important;
+	border: 1px solid #C7C7C7 !important;
+	background-color: #C7C7C7 !important;
+	}
 
 /*body, #main { width: 100% !important; }
 
