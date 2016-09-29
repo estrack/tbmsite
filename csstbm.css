@@ -753,15 +753,13 @@ body.en .botonactivo {
 
 .botonibar {
 	float: right;
-	display: inline-block;
+	display: none;
 	/*padding-top: 16px;
 	padding-bottom: 16px;
 	padding-right: 16px;
 	padding-left: 0px;*/
 }
-.hideibutton{
-	display: none;
-}
+
 
 	
 
