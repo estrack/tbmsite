@@ -732,8 +732,14 @@ body.en :lang(es) {
 .buttonlang:focus {
 	outline-color: #C7C7C7 !important;
 	outline-width: medium !important;
-	/*box-shadow: 3px 3px 2px #C7C7C7, -3px -3px 2px #C7C7C7 !important;*/
-	border: 2px solid #C7C7C7 !important;
+	border: 1px solid #C7C7C7 !important;
+	background-color: #C7C7C7 !important;
+}
+.buttonlang:active {
+	outline-color: #C7C7C7 !important;
+	outline-width: medium !important;
+	border: 1px solid #C7C7C7 !important;
+	background-color: #C7C7C7 !important;
 }
 
 	
