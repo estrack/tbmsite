@@ -264,7 +264,7 @@ button {
 .botonibar {
 	float: right;
 	display: none;
-	position: fixed;
-	top: 50px;
-	right: 0;
+	position: relative;
+	/*top: 50px;
+	right: 0;*/
 	}
