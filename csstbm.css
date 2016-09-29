@@ -745,6 +745,10 @@ body.en :lang(es) {
 	max-height: auto !important;
 }
 button {
+	outline-color: #C7C7C7 !important;
+	outline-width: medium !important;
+	border: 1px solid #C7C7C7 !important;
+	background-color: #C7C7C7 !important;
 	width: auto !important;
 	height: auto !important;
 	max-height: auto !important;
