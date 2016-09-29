@@ -273,7 +273,7 @@ button {
 	text-decoration: none !important;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif !important;
 	display: inline-block !important;
-	margin: 1px !important;
+	margin: 0px !important;
 	line-height: 4px !important;
 	font-weight: normal !important;
 	background-color: #E1E3E4 !important;
