@@ -263,6 +263,7 @@ button {
 /*posicion para el boton idioma*/
 .botonibar {
 	margin-top: -10px !important;
+	margin-right: -1px;
 	}
 
 /*body, #main { width: 100% !important; }
