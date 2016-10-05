@@ -767,6 +767,10 @@ body.en .botonactivo {
 	border: thin solid #C0BDBD !important;
 	vertical-align: bottom !important;
 	}
+.fb-share-buttontbm:hover {
+	background-color: #F5EC18 !important;
+	text-decoration: none !important;
 	
+	}	
 
 
