@@ -312,7 +312,7 @@ body.en .botonactivo {
 	float: left;
 	display: inline-block;
 	Position: fixed;
-	top: 25px;
-	left: 0px;
+	top: 55px;
+	left: -1px;
 	margin-top: -11px !important;
 	}
