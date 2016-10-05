@@ -312,7 +312,11 @@ body.en .botonactivo {
 	float: left;
 	display: inline-block;
 	Position: fixed;
-	top: 55px;
+	top: 60px;
 	left: -1px;
 	margin-top: -11px !important;
+	}
+	
+.fb-share-buttontbm{
+	width:20px;
 	}
