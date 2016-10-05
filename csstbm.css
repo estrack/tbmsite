@@ -751,7 +751,7 @@ body.en .botonactivo {
 	display: inline-block;
 	margin-top: -16px;
 	}
-.fb-share-buttontbm{
+.fb-xfbml-parse-ignore{
 	-webkit-transition-duration: 0.2s !important; 
     transition-duration: 0.2s !important;
     font-size: medium !important;
@@ -767,7 +767,7 @@ body.en .botonactivo {
 	border: thin solid #C0BDBD !important;
 	vertical-align: bottom !important;
 	}
-.fb-share-buttontbm:hover {
+.fb-xfbml-parse-ignore:hover {
 	background-color: #F5EC18 !important;
 	text-decoration: none !important;
 	
