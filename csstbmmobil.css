@@ -263,7 +263,7 @@ button {
 /*posicion para el boton idioma*/
 .botonibar {
 	margin-top: -11px !important;
-	margin-right: -2px;
+	margin-right: 0;
 	}
 .buttonlang {
 	-webkit-transition-duration: 0.2s !important; 
