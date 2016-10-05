@@ -746,7 +746,11 @@ body.en .botonactivo {
 	display: inline-block;
 	margin-top: -16px;
 	}
-
+.shareboton{
+	float: left;
+	display: inline-block;
+	margin-top: -16px;
+	}
 
 	
 
