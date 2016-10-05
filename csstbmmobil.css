@@ -308,3 +308,11 @@ body.en .botonactivo {
 	display: inline-block;
 	vertical-align: top;
 }
+.shareboton{
+	float: left;
+	display: inline-block;
+	Position: fixed;
+	top: 25px;
+	left: 0px;
+	margin-top: -11px !important;
+	}
