@@ -1,3 +1,5 @@
+
+
 .navdesk {
 	display: none;
 }
@@ -50,7 +52,7 @@
 
 
   .h2 {
-	font-size: x-large;
+	font-size: x-large !important;
 	margin-top: 10px;
 	}
 .h5 {
@@ -110,7 +112,6 @@
 		border: none;
 	}
 h1 {
-	border-bottom: none !important;
 	letter-spacing: 0px !important;
 }
 /* css para menu mobil navigation*/
@@ -309,14 +310,34 @@ body.en .botonactivo {
 	vertical-align: top;
 }
 .shareboton{
-	float: left;
-	display: inline-block;
 	Position: fixed;
-	top: 60px;
+	top: 250px;
 	left: -1px;
 	margin-top: -11px !important;
+	
+	}
+.sharebotonmain{
+	position: fixed;
+	top: 250px;
+	left: -1px;
+	margin-top: -11px;
 	}
 	
 .imgshareb{
 	width:12px;
+	opacity: 0.3;
 	}
+.imgshareb2{
+	width:14px;
+	opacity: 0.3;
+	}
+.share-buttontbm, .share-buttontbm1{
+		width:32px;
+	}
+.share-buttontbm:hover .imgshareb, .share-buttontbm:hover .imgshareb2{
+	opacity: 1 !important;
+}
+.share-buttontbm1{
+	background-color: rgba(225, 227, 228, 0) !important;
+	}
+	

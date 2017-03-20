@@ -5,10 +5,18 @@
 }
 body {
 	background-color: #e1e3e4 !important;
-	margin: 0px;
-	padding: 0px;
+	margin: 0px ;
+	padding: 0px ;
 	border-bottom-color: #000000;
+	width: 100% !important;
+	overflow-x:hidden !important;
+	/*position: relative !important;*/
 }
+html {
+  overflow-x: hidden !important;
+}
+
+
 a:active {
     outline: none !important;
 }
@@ -50,7 +58,6 @@ h1 {
 	letter-spacing: 10px !important;
 	color: black !important;
 	height: 50px !important;
-	border-bottom: thin solid #C0BDBD !important;
 	padding-right: 10% !important;
 	padding-left: 10% !important;
 	padding-top: 5px !important;
@@ -93,7 +100,7 @@ h3.post-title {
 	text-align: left;
 	font-size: medium;
 	color: black !important;
-	height: 120px;
+	height: 125px;
 	background-color: #C7C7C7;
 	vertical-align: baseline;
 	font-weight: bold;
@@ -103,8 +110,8 @@ h3.post-title {
 	
 }
 .linkss {
-	-webkit-transition-duration: 0.2s !important; 
-    transition-duration: 0.2s !important;
+	-webkit-transition-duration: 0.4s !important; 
+    transition-duration: 0.4s !important;
 	font-size: medium;
 	color: black !important;
 	text-decoration: none !important;
@@ -288,8 +295,8 @@ audio {
 
 }
 .linkssx {
-	-webkit-transition-duration: 0.2s !important; 
-    transition-duration: 0.2s !important;
+	-webkit-transition-duration: 0.4s !important; 
+    transition-duration: 0.4s !important;
 	font-size: medium;
 	color: #323232 !important;
 	text-decoration: none !important;
@@ -706,13 +713,9 @@ body.en :lang(es) {
 
 /*estilo para botones*/
 .buttonlang {
-	-webkit-transition-duration: 0.2s !important; 
-    transition-duration: 0.2s !important;
-    font-size: medium !important;
-	color: black !important;
-	text-decoration: none !important;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif !important;
-	display: inline-block !important;
+	-webkit-transition-duration: 0.4s !important; 
+    transition-duration: 0.4s !important;
+    display: inline-block !important;
 	margin: 1px !important;
 	line-height: 4px !important;
 	font-weight: normal !important;
@@ -747,33 +750,87 @@ body.en .botonactivo {
 	margin-top: -16px;
 	}
 .shareboton{
+	position: fixed;
 	float: left;
-	display: inline-block;
 	margin-top: -16px;
+	width: 50px;
+	z-index: 50;
 	}
-.fb-share-buttontbm{
-	-webkit-transition-duration: 0.2s !important; 
-    transition-duration: 0.2s !important;
-    font-size: medium !important;
+/* para botón share en mainpage */
+.sharebotonmain{
+	position: fixed;
+	top: 60px;
+	float: left;
+	margin-top: 4px;
+	width: 50px;
+	z-index: 50;
+	}
+.share-buttontbm1{
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s ;
+    font-size: medium ;
 	color: black !important;
 	text-decoration: none !important;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif !important;
-	display: inline-block !important;
+	display: block !important;
+	float: left;
 	margin: 1px !important;
 	line-height: 4px !important;
 	font-weight: normal !important;
-	background-color: #E1E3E4 !important;
+	background-color: rgba(225, 227, 228, 1) !important;
 	padding: 12px 8px !important;
 	border: thin solid #C0BDBD !important;
 	vertical-align: bottom !important;
+	width:38px;
 	}
-.fb-share-buttontbm:hover {
+.share-buttontbm1:hover {
 	background-color: #F5EC18 !important;
+	text-decoration: none ;
+	border: thin solid #C0BDBD ;
+	}
+.share-buttontbm1:hover .imgshareb, .share-buttontbm1:hover .imgshareb2{
+	opacity: 1 !important;
+}
+/*Fin de boton share mainpage*/
+.share-buttontbm{
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s ;
+    font-size: medium ;
+	color: black !important;
 	text-decoration: none !important;
-	
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif !important;
+	display: block !important;
+	float: left;
+	margin: 1px !important;
+	line-height: 4px !important;
+	font-weight: normal !important;
+	background-color: rgba(225, 227, 228, 0) !important;
+	padding: 12px 8px !important;
+	border: thin solid #C0BDBD !important;
+	vertical-align: bottom !important;
+	width:38px;
+	}
+.share-buttontbm:hover {
+	background-color: #F5EC18 !important;
+	text-decoration: none ;
+	border: thin solid #C0BDBD ;
 	}	
 .imgshareb{
+	-webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+	-webkit-transition-duration: 0.4s ; 
+    transition-duration: 0.4s ;
 	width:20px;
+	opacity: 0.15;
 	}
-
-
+.imgshareb2{
+	-webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+	-webkit-transition-duration: 0.4s ; 
+    transition-duration: 0.4s ;
+	width:22px;
+	opacity: 0.15;
+	}
+.share-buttontbm:hover .imgshareb, .share-buttontbm:hover .imgshareb2{
+	opacity: 1 !important;
+}

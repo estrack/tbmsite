@@ -2,13 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Carrousel with images from latest releases by TBM Music labels</title>
   
+  <title>Carrousel with images from latest releases by TBM Music labels</title>
+  <script>
+  function share() {
+  FB.ui({
+    method: 'share',
+    href: 'http://www.tbmmusic.com',
+  }, function(response){});
+}
+</script>
 </head>
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '863685503777457',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <div class="container">
+
   
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
     <!-- Indicators -->

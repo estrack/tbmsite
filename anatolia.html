@@ -5,10 +5,44 @@
 <meta name="keywords" content="anatolia, art, photographer, The Beauty of Melody,">
 <meta name="description" content="Page for artist Anatolia">
 <title>Anatolia</title>
-
+<script>
+// Facebook Share button
+function share() {
+  FB.ui({
+    method: 'share',
+    href: 'http://www.tbmmusic.com/p/anatolia.html',
+  }, function(response){});
+}
+</script>
 </head>
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '863685503777457',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <div class="cuerpofull">
+<!--Botones Share-->
+<div class="shareboton">
+
+<!--Boton Facebook-->
+<button class="share-buttontbm" type="button" onclick="share();"><img class="imgshareb" title="Share this release on Facebook" src="https://4.bp.blogspot.com/-qzBmnHo-u9c/V_WLOUs1sEI/AAAAAAAAA8Q/sScmFLney0ErW_2K_p8xWMcrCsT8jiveQCLcB/s1600/FB-f-Logotbm.png"></button>
+
+<!--Boton Twitter-->
+<a class="share-buttontbm button" title="Share this artist on Twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.tbmmusic.com%2Fp%2Fanatolia.html%2F&via=_tbmmusic&related=_tbmmusic%3A%20Label%20Group%2Ccloserecords%3A%20Label%20Group%20Techno%20Label%2Cbeautyofmelody%3A%20Label%20Group%20Electronica%20Label"><img class="imgshareb2" src="https://4.bp.blogspot.com/-iqJSgvMT5Jk/V_YEZE4rcMI/AAAAAAAAA8k/GpfHi9Ga75YkCxI-8a0DTJIWvvZZ2yH-ACLcB/s1600/Twitter%2Blogo%2Btbm.png"></a>
+</div>
 <!--Boton para camibio de idioma-->
 	<div class="botonibar">
 		<button class="buttonlang botonactivo" onclick="document.body.className='en'">English</button><button class="buttonlang" onclick="document.body.className='es'">Español</button>
@@ -24,11 +58,11 @@
 
 <div class="article">
 <p lang="en">
-Anatolia is a graphic artist, draftswoman and illustrator from Medellín, Colombia. She was born in 1989 and has a degree in fine arts from the University of  Antioquia. She combines her graphic artistic activities with the photography practice and has been part of workshops like the First Intensive Workshop for Emerging Latin American Photographers in the University of Iowa in 2015. She loves the nature and animals, that’s the reason why most of her work is focused on recreating inner moments and situations with curious creatures, as well as spaces depicting the daily life. Her style has an unique beauty and freshness capable to introduce the observer into something different, and perhaps better, than the present reality.
+Anatolia is a graphic artist, draftswoman and illustrator from Medellín, Colombia. She was born in 1989 and has a degree in fine arts from the University of  Antioquia. She combines her graphic artistic activities with the photography practice and has been part of workshops like the First Intensive Workshop for Emerging Latin American Photographers in the University of Iowa in 2015. She loves the nature and animals, that’s the reason why most of her work is focused on recreating inner moments and situations with curious creatures, as well as spaces depicting the daily life. Her style has an unique beauty and freshness capable to introduce the observer into something different and, perhaps better, than the present reality.
 </p>
  
 <!--Biografía en español -->
-<p lang="es">Anatolia es artista gráfica, dibujante, ilustradora, graduada de la universidad de Antioquia en Artes Plásticas. Comparte sus actividades de artista plástica con su práctica fotográfica y ha participado algunos workshops de fotografía en la Universidad de IOWA Estados Unidos. Es amante de de los animales y la naturaleza, de allí que la mayoría de su trabajo esté centrado en recrear momentos íntimos y situaciones con criaturas curiosas, así como también, espacios que retratan la vida cotidiana. Su estilo tiene una belleza y frescura única, capaz de introducir al observador dentro de algo diferente, y quizás mejor, que la presente realidad.</p>
+<p lang="es">Anatolia es artista gráfica, dibujante e ilustradora de Medellín, Colombia. Nació en 1989 y tiene un título en Artes Plásticas de la Universidad de Antioquia. Comparte sus actividades de artista plástica con su práctica fotográfica, y ha participado algunos workshops de fotografía en la Universidad de IOWA Estados Unidos. Es amante de de los animales y la naturaleza, de allí que la mayoría de su trabajo esté centrado en recrear momentos íntimos y situaciones con criaturas curiosas, así como también, espacios que retratan la vida cotidiana. Su estilo tiene una belleza y frescura única, capaz de introducir al observador dentro de algo diferente y, quizás mejor, que la presente realidad.</p>
 
 
 <div class="callartist">
